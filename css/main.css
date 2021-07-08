@@ -1,0 +1,116 @@
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.nav{
+	position: absolute;
+}
+/* Reuse */
+.header-logo{
+	font-family: 'Tourney', cursive;
+	color: red;
+}
+.header-logo:after{
+	display: block;
+	height: 4px;
+    background-color: red;
+    width: 220px;
+    content: " ";
+    margin: 0 auto;
+    margin-top: 5px;
+}
+
+/*Header */
+.logo{
+	height: 70px;
+	width: auto;
+}
+
+#header1{
+	background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../img/header1.jpg);
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/header1.jpg);
+	height: 100vh;
+	background-attachment: fixed;
+    background-size: cover;
+	background-position: 0% 0%;
+	margin-bottom: 0px;
+	-webkit-animation: mymove 30s infinite;
+	animation: mymove 30s infinite;
+}
+#header{
+	background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../img/header.jpeg);
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/header.jpeg);
+	height: 100vh;
+	background-attachment: fixed;
+    background-size: cover;
+	background-position: 0% 0%;
+	margin-bottom: 0px;
+	-webkit-animation: mymove 30s infinite;
+	animation: mymove 30s infinite;
+}
+/*contact*/
+.form-control {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid blue;
+  border-radius: 0 !important;
+}
+/*galary*/
+.cf-galary{
+   display: relative;
+}
+.cf-galary img{
+	display: relative;
+	width: 100%;
+	height: 300px;
+	border-radius: 10px;
+}
+.cf-galary img:hover{
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+    opacity: 1;
+}
+.list{
+	list-style: none;
+}
+.head{
+	position: relative;
+	top: 40%;
+}
+.text-center{
+	margin-bottom: 50px;
+}
+.galary{
+	margin-top: 70px;
+}
+.service-img{
+	height: 100px;
+	width: 100px;
+}
+.service_detail{
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 35px;
+	padding: 20px;
+	color: white;
+}
+.service_detail:hover{
+	background-color: white;
+	border-radius: 10px;
+	color: black;
+}
+.section{
+	padding-top: 55px;
+}
+.text-white{
+	font-family: 'Abril Fatface', cursive;
+}
+.Hero-text{
+	font-size: 80px;
+}
